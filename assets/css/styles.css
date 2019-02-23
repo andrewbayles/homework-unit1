@@ -1,5 +1,6 @@
 body {
 	background-color: #eeeeee;
+	background-image: url(../images/bg_mountains.jpg);
 }
 
 header {
@@ -73,6 +74,10 @@ section#about-me {
     background-color: #ffffff;
     border: 1px solid #cccccc;
     padding: 40px;
+}
+
+section#about-me img {
+	float: left;
 }
 
 section h2 {
