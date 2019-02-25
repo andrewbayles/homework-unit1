@@ -85,15 +85,18 @@ section.main h2 {
 	font-family: 'Georgia', Times, Times New Roman, serif;
     font-weight: bold;
     font-size: 1.6em;
+    margin-bottom: 30px;
 }
 
 section.main hr {
-	margin-bottom: 20px;
+	margin-bottom: 30px;
 }
 
 section#about-me img {
 	float: left;
 	padding: 0px 30px 0px 0px;
+	width: 240px;
+	height: 240px;
 }
 
 section#about-me p {
@@ -109,6 +112,13 @@ section#contact-me p {
     padding-bottom: 10px;
 }
 
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
 section#contact-me input {
 	margin-bottom: 15px;
     padding: 10px;
@@ -117,7 +127,7 @@ section#contact-me input {
 }
 
 section#contact-me textarea {
-	border: 1px solid #cccccc;
+	border: 1px solid #dddddd;
     width: 857px;
     margin-bottom: 15px;
     height: 200px;
